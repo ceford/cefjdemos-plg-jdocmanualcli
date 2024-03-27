@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" group="system" method="upgrade">
-	<name>system - jdocmanualcli</name>
+	<name>plg_system_jdocmanualcli</name>
 	<author>Clifford E Ford</author>
     <authorUrl>https://jdocmanual.org</authorUrl>
 	<creationDate>July 2023</creationDate>
