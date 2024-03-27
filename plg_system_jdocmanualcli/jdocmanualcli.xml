@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>system - jdocmanualcli</name>
+	<author>Clifford E Ford</author>
+    <authorUrl>https://jdocmanual.org</authorUrl>
+	<creationDate>July 2023</creationDate>
+	<copyright>(C) Clifford E Ford</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>cliff@ford.myzen.co.uk</authorEmail>
+	<description>Populate jdocmanual database tables</description>
+    <version>1.1</version>
+	<files>
+		<file plugin="jdocmanualcli">jdocmanualcli.php</file>
+        <file>jdocmanualcli.xml</file>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/plg_system_jdocmanualcli.sys.ini</language>
+	</languages>
+	<updateservers>
+		<!-- Note: No spaces or linebreaks allowed between the server tags -->
+		<server type="extension" priority="2" name="Jdocmanual Update Site">https://raw.githubusercontent.com/ceford/j4xdemos-plg-jdocmanualcli/main/plg_system_jdocmanualcli/jdocmanualcli.xml</server>
+	</updateservers>
+</extension>
+
+
