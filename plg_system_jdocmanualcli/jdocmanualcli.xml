@@ -16,10 +16,6 @@
 	<languages folder="language">
 		<language tag="en-GB">en-GB/plg_system_jdocmanualcli.sys.ini</language>
 	</languages>
-	<updateservers>
-		<!-- Note: No spaces or linebreaks allowed between the server tags -->
-		<server type="extension" priority="2" name="Jdocmanual Update Site">https://raw.githubusercontent.com/ceford/j4xdemos-plg-jdocmanualcli/main/plg_system_jdocmanualcli/jdocmanualcli.xml</server>
-	</updateservers>
 </extension>
 
 
